@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import ExpenseItem from './ExpenseItem'
 import './ExpenseList.css'
 
 export class ExpenseList extends Component {
@@ -7,6 +8,7 @@ export class ExpenseList extends Component {
       <>
         <ul className='list'>
             {/* Expense Item */}
+            <ExpenseItem />
         </ul>
         <button className='btn'>
             목록지우기
