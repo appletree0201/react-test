@@ -24,12 +24,9 @@ export class ExpenseForm extends Component {
                     name= 'amount'
                     placeholder='예) 100'/>
                 </div>
-
-
             </div>
             <button type='submit' className= 'btn'>
                 제출
-
             </button>
         </form>
     )

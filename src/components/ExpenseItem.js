@@ -4,10 +4,10 @@ import "./ExpenseItem.css";
 export class ExpenseItem extends Component {
   render() {
     return (
-        <li classname= 'item'>
+        <li className= 'item'>
             <div className="info">
-                <span className="expense"></span>
-                <span className="expense">원</span>
+                <span className="expense">학원등록</span>
+                <span className="amount">1000원</span>
             </div>
             <div className="button">
                 <button className="edit-btn">수정</button>
