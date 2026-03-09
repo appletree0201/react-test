@@ -8,6 +8,7 @@ class App extends Component {
     return(
       <main className="main-container">
         <h1>예산계산기</h1>
+        
 
         <div style={{width:'100%', backgroundColor: 'white', padding: '1rem'}}>
           {/* Expense Form */}
